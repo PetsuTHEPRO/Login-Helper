@@ -4,6 +4,7 @@
     box-sizing: border-box;
     font-family: "Poppins", sans-serif;
     text-decoration: none;
+    color: #FFF;
 }
 
 header{
@@ -91,4 +92,105 @@ main form .password-container{
 
 main form .password-container i#eye{
     display: none;
+}
+
+main form .password-infos{
+    width: 90%;
+    margin-top: 3%;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+main form .password-infos a{
+    transition: 0.2s ease-in-out;
+}
+
+main form .password-infos a:hover{
+    color: #18ACFE;
+}
+
+main form button{
+    background-color: #18ACFE;
+    width: 90%;
+    height: 50px;
+    border: 0;
+    outline: 0;
+    border-radius: 12px;
+    margin-top: 10%;
+    font-size: 1.6em;
+    cursor: pointer;
+    transition: 0.3s ease ease-in-out;
+}
+
+main form button:hover{
+    background-color: #fff;
+    color: #18ACFE;
+}
+
+main form .link-container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10%;
+}
+
+main form .link-container span{
+    font-size: 0.8em;
+    font-weight: 600;
+}
+
+main form .link-container aside{
+    margin-top: 5%;
+    width: 50%;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+main form .link-container aside i{
+    font-size: 1.6em;
+    background-color: #FFF;
+    padding: 8px;
+    height: 40px;
+    width: 40px;
+    border-radius: 20px;
+    transition: 0.3s ease-in-out;
+    color: #fff;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+main form .link-container aside .google{
+    color: #e34133;
+}
+
+main form .link-container aside .google:hover{
+    background-color: #e34133;
+    color: #fff; 
+}
+
+
+main form .link-container aside .linkedin{
+    color: #0A66C2;
+}
+
+main form .link-container aside .linkedin:hover{
+    background-color: #0A66C2;
+    color: #fff; 
+}
+
+main form .link-container aside .facebook{
+    color: #14A0f9;
+}
+
+
+main form .link-container aside .facebook:hover{
+    background-color: #14A0F9;
+    color: #fff; 
 }
